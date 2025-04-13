@@ -1,40 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# 3D Interactive Environment with Three.js
+
+An interactive 3D environment built with Next.js, Three.js, and React Three Fiber. The scene features a controllable Gojo character, physics-based interactions, and a dynamic camera.
+
+## Features
+
+- **Interactive Character**: Control Gojo Satoru character with WASD keys
+- **Physics Simulation**: Using react-three/cannon for realistic physics interactions
+- **Dynamic Camera**: Cinematic opening camera rotation around the scene
+- **Textured Objects**: Detailed textures for the ground and the Prison Realm box
 
 ## Getting Started
 
-First, run the development server:
+First, install dependencies:
+
+```bash
+npm install
+# or
+yarn install
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the 3D environment.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Controls
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- **W**: Move forward
+- **S**: Move backward
+- **A**: Move left
+- **D**: Move right
+- **Mouse**: Click and drag to rotate the camera view
+- **Mouse Wheel**: Zoom in and out
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+## Technical Implementation
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The project uses:
 
-## Learn More
+- **Next.js** as the React framework
+- **Three.js** and **@react-three/fiber** for 3D rendering
+- **@react-three/cannon** for physics
+- **@react-three/drei** for helpful Three.js components
+- **GLTFLoader** for loading 3D models
 
-To learn more about Next.js, take a look at the following resources:
+The scene is composed of:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+1. A controllable Gojo character with physics-based movement
+2. A textured Prison Realm box with physics
+3. A textured ground plane 
+4. Dynamic lighting
+5. Orbit controls for camera manipulation
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Model Credits
 
-## Deploy on Vercel
+- Gojo Satoru model
+- Prison Realm textures
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.

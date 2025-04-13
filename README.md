@@ -4,7 +4,7 @@ An interactive 3D environment built with Next.js, Three.js, and React Three Fibe
 
 ## Demo
 
-[https://user-images.githubusercontent.com/yvonlcy/three_04/assets/raw/main/public/videos/showcase.mp4](https://user-images.githubusercontent.com/yvonlcy/three_04/assets/raw/main/public/videos/showcase.mp4)
+[https://github.com/yvonlcy/three_04/raw/main/public/videos/showcase.mp4](https://github.com/yvonlcy/three_04/raw/main/public/videos/showcase.mp4)
 
 ## Features
 

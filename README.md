@@ -4,7 +4,7 @@ An interactive 3D environment built with Next.js, Three.js, and React Three Fibe
 
 ## Demo
 
-[https://github.com/yvonlcy/three_04/raw/main/public/videos/showcase.mp4](https://github.com/yvonlcy/three_04/raw/main/public/videos/showcase.mp4)
+![Demo Animation](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXh2Y2wyeGtpdjVkMTRsM3JoZHcwam94cGs4ZWx2MXR6ZGVycTdzMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/rmU3tHkffHLyyvMlpt/giphy.gif)
 
 ## Features
 
@@ -64,5 +64,3 @@ The scene is composed of:
 
 - Gojo Satoru model
 - Prison Realm textures
-
-

@@ -2,6 +2,10 @@
 
 An interactive 3D environment built with Next.js, Three.js, and React Three Fiber. The scene features a controllable Gojo character, physics-based interactions, and a dynamic camera.
 
+## Demo
+
+[https://github.com/yvonlcy/three_04/raw/main/public/videos/showcase.mp4](https://github.com/yvonlcy/three_04/raw/main/public/videos/showcase.mp4)
+
 ## Features
 
 - **Interactive Character**: Control Gojo Satoru character with WASD keys
